@@ -1,0 +1,80 @@
+.container{
+    size: 20px;
+    margin-left: 25%;
+    margin-right: 30%;
+    margin-top: 2%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h3{
+    font-size: 20px ;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(0, 102, 255);
+}
+
+a{
+    text-decoration: none;
+    color:rgb(0, 102, 255);
+}
+
+.img{
+    width: 50px;
+    height: 50px;
+}
+
+.post-img{
+    height: 200px;
+    width: 500px;
+}
+
+
+.main-header{
+    background-color: rgba(235, 233, 233, 0.746);
+}
+.main-header h1{
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(0, 102, 255)
+}
+.main-header a{
+    text-decoration: none;
+    color: rgb(0, 102, 255);
+}
+
+.post-header h2{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(0, 102, 255);
+    font-size: 25px;
+}
+
+.link{
+    color: black;
+}
+
+
+.related{
+    width: 55%;
+    border-top: 2px solid rgb(0, 162, 255);
+    border-bottom: 2px solid rgb(0, 162, 255);
+    padding: 0 , 3% , 3%, 3%;
+    background-color: rgba(235, 233, 233, 0.746);
+}
+
+footer{
+    float: right;
+    color: rgba(105, 105, 105, 0.87);
+    margin-right: 45%;
+}
+
+.button-top{
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:15px;
+    padding-right:15px;
+    border: 3px solid cyan;
+    background-color: rgba(41, 246, 246, 0.335);
+    margin-right: 9%;
+    position: absolute;
+    bottom: -125%;
+    right: 0%; 
+}
+
