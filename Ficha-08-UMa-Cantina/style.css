@@ -1,0 +1,83 @@
+body {
+    background: #f8f9fa;
+}
+
+.cor-principal {
+    color: crimson;
+}
+.texto_menu{
+    font-size: 18px !important;
+}
+.rating-color{
+    color:#f804c7 !important;
+}
+
+.img_banner{
+    width: 100% !important;
+    height: 400px !important;
+}
+
+h1 {
+    font-weight: 900;
+    height: 36px;
+    margin: 0;
+    line-height: 0.8;
+}
+
+section .container .col-lg-12 {
+    background-color: white;
+}
+
+#carouselExampleCaptions {
+    color: black;
+    height: 365px;
+}
+
+#carouselExampleCaptions .carousel-indicators li {
+    background-color: rgba(220, 20, 60, 0.3);
+}
+
+#carouselExampleCaptions .carousel-indicators .active {
+    background-color: crimson;
+}
+
+#carouselExampleCaptions .carousel-control-next-icon,
+.carousel-control-prev-icon {
+    background-color: crimson;
+}
+
+.carousel-caption {
+    color: black;
+    top: 0;
+    padding: 60px 130px;
+}
+
+.home-food img {
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    color: white;
+}
+
+footer .container .col-lg-12 {
+    background-color: maroon;
+    padding: 60px;
+}
+
+.social-media a {
+    padding: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.social-media a:hover {
+    color: grey;
+}
+
+.img{
+    height: 250px !important;
+    width: 250px !important;
+}

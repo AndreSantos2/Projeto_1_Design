@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>UMa Cantina</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-md navbar-light bg-light px-0">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <a class="navbar-brand float-right" href="#">
+                        <h1>
+                            <span class="cor-principal">UMa</span>
+                            Cantina
+                        </h1>
+                    </a>
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item active">
+                            <a href="index.html" class="nav-link">Home</a>
+                        </li>
+                        <li class="divider py-2 d-none d-md-block cor-principal">/</li>
+                        <li class="nav-item">
+                            <a href="menu.html" class="nav-link">Menu</a>
+                        </li>
+                        <li class="divider py-2 d-none d-md-block cor-principal">/</li>
+                        <li class="nav-item">
+                            <a href="about.html" class="nav-link">Acerca</a>
+                        </li>
+                        <li class="divider py-2 d-none d-md-block cor-principal">/</li>
+                        <li class="nav-item pe-3">
+                            <a href="contact.html" class="nav-link">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <button type="button" class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#reservationmodal">
+                                Reservas
+                            </button>
+                        </li>
+                    </ul>
+
+                </div>
+            </nav> 
+        </div>
+    </header>
+    <section>
+        <div class="container pt-5">
+            <div class="row pt-4">
+                <h3>Aperitivos</h3>
+                <div class="col-4 text-center pt-4">
+                    <p class="texto_menu cor-principal">Pão de Alho</p>
+                    <p class="texto_menu">Pão delicioso com </br> manteiga de alho</p>
+                    <p class="texto_menu cor-principal">7€</p>
+                </div>
+                <div class="col-4 text-center pt-4">
+                    <p class="texto_menu cor-principal">Asinhas de Galinhas</p>
+                    <p class="texto_menu">Uma duzia de asas de galinha </br> grelhadas e com um sabor de bqq</p>
+                    <p class="texto_menu cor-principal">12€</p>
+                </div>
+                <div class="col-4 text-center pt-4">
+                    <p class="texto_menu cor-principal">Nachos</p>
+                    <p class="texto_menu" >Varios nachos com </br> queijo derretido, bom </br> para partilhar com a familia</p>
+                    <p class="texto_menu cor-principal">14€</p>
+                </div>
+                <div class="col-4 text-center pt-4">
+                    <p class="texto_menu cor-principal">Batata Frita</p>
+                    <p class="texto_menu" > Uma dose da batata frita </br> com mayonese e ketchup</p>
+                    <p class="texto_menu cor-principal">8€</p>
+                </div>
+                <div class="col-4 text-center pt-4">
+                    <p class="texto_menu cor-principal">Salada</p>
+                    <p class="texto_menu" > Uma salada com </br> Tomate, cebola, pepino e alface</p>
+                    <p class="texto_menu cor-principal">9€</p>
+                </div>
+                <div class="col-4 text-center pt-4">
+                    <p class="texto_menu cor-principal">Tortilhas e salsa</p>
+                    <p class="texto_menu" >Umas Batatas de tortilhas </br> com molho com salsa</p>
+                    <p class="texto_menu cor-principal">6€</p>
+                </div>
+            </div>
+            <div class="row pt-4">
+                <h3>Sandes<small class="text-muted"> Todas as Sandes vêm com batata ou salada</small></h3>
+                <div class="col-4 text-center pt-4">
+                    <p class="texto_menu cor-principal">Vegetal</p>
+                    <p class="texto_menu" >Tomate, alface </br> queijo, salsa e cebola</p>
+                    <p class="texto_menu cor-principal">12€</p>
+                </div>
+                <div class="col-4 text-center pt-4">
+                    <p class="texto_menu cor-principal">Peru</p>
+                    <p class="texto_menu" >Peru, alface, </br> queijo, tomate e molho</p>
+                    <p class="texto_menu cor-principal">14€</p>
+                </div>
+                <div class="col-4 text-center pt-4">
+                    <p class="texto_menu cor-principal">Bife de Vaca</p>
+                    <p class="texto_menu" >bife de vaca, alface, </br> tomate, queijo, mustarda</p>
+                    <p class="texto_menu cor-principal">14€</p>
+                </div>
+            </div>
+            <div class="row pt-4">
+                <h3>Hamburguers<small class="text-muted"> Todas os Hamburguers vêm com batata ou salada</small></h3>
+                <div class="col-4 text-center pt-4">
+                    <p class="texto_menu cor-principal">Vaca</p>
+                    <p class="texto_menu" >bife de vaca, alface, </br> tomate, queijo, pickles</p>
+                    <p class="texto_menu cor-principal">16€</p>
+                </div>
+                <div class="col-4 text-center pt-4">
+                    <p class="texto_menu cor-principal">Galinha</p>
+                    <p class="texto_menu" >Galinha, alface, </br> tomate,queijo, pickles,mostarda</p>
+                    <p class="texto_menu cor-principal">16€</p>
+                </div>
+                <div class="col-4 text-center pt-4">
+                    <p class="texto_menu cor-principal">Vegetal</p>
+                    <p class="texto_menu" > Alface, cogumelos, salsa, </br> tomate, queijo, pickles</p>
+                    <p class="texto_menu cor-principal">14€</p>
+                </div>
+            </div>
+        </div>
+    <footer>
+        <div class="container pt-4">
+            <div class="col-lg-12 text-center">
+                <h3>UMa Cantina</h1>
+                    </br>
+                    </br>
+                    <p>Rua de Santa Maria, nº 253 / Funchal / 291.123.123</p>
+                    <p>Horário: De 2ª a 6ª e Sábado das 09:00 às 14:00</p>
+                    </br>
+                    <div class="social-media">
+                        <a href="#">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-pinterest"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                    </div>
+                    </br>
+                    <p>&copy; 2017 Universidade da Madeira</p>
+            </div>
+        </div>
+    </footer>
+    <div class="modal fade" tabindex="-1" role="dialog" id="reservationmodal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title cor-principal">Reserva</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label>Nome</label>
+                            <input type="text" class="form-control" placeholder="Insira o nome do titular da reserva">
+                        </div>
+                        <div class="form-group">
+                            <label>Data</label>
+                            <input type="text" class="form-control" placeholder="Insira a data pretendida">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-danger">Reservar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+
+</html>
+
